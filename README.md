@@ -16,7 +16,7 @@ npm install
 ## Steps for image processing
 1- enter image you need to resize in assets/full directory
 2- To create thumb copy:
-GET /api/images/?filename={filename.jpg}&height={height}&width={width}
+GET /api/images?name=encenadaport.jpg&height=100&width=100
 if you don't enter height or width or both..
 Don't worry... project will resize it to 100*100 dimensions..
 But be sure to enter valid image name..
